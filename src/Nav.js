@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import logo from "./logo.png";
-import avatar from "./avatar.jpg";
+import avatar from "./avatar.png";
 import "./Nav.css";
 function Nav() {
   const [show, handleShow] = useState(false);
@@ -22,5 +22,5 @@ function Nav() {
     </div>
   );
 }
-    
+
 export default Nav;
